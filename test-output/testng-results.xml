@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="217826" started-at="2020-09-24T13:52:14Z" finished-at="2020-09-24T13:55:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="217826" started-at="2020-09-24T13:52:14Z" finished-at="2020-09-24T13:55:52Z">
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <test-method status="PASS" signature="titleTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@1e4a7dd4]" name="titleTest" duration-ms="6475" started-at="2020-09-24T13:53:53Z" finished-at="2020-09-24T13:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@1e4a7dd4]" name="loginTest" duration-ms="12978" started-at="2020-09-24T13:54:00Z" finished-at="2020-09-24T13:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+      <class name="com.qa.hubspot.test.HomePageTest">
+        <test-method status="PASS" signature="homePageHeaderTest()[pri:0, instance:com.qa.hubspot.test.HomePageTest@48a242ce]" name="homePageHeaderTest" duration-ms="3816" started-at="2020-09-24T13:53:49Z" finished-at="2020-09-24T13:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageHeaderTest -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:0, instance:com.qa.hubspot.test.HomePageTest@48a242ce]" name="homePageTitleTest" duration-ms="29" started-at="2020-09-24T13:53:53Z" finished-at="2020-09-24T13:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+      </class> <!-- com.qa.hubspot.test.HomePageTest -->
+      <class name="com.qa.hubspot.test.ContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.test.ContactsPageTest@4f51b3e0]" name="setup" is-config="true" duration-ms="54319" started-at="2020-09-24T13:52:14Z" finished-at="2020-09-24T13:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.test.HomePageTest@48a242ce]" name="setup" is-config="true" duration-ms="26171" started-at="2020-09-24T13:53:08Z" finished-at="2020-09-24T13:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@1e4a7dd4]" name="setUp" is-config="true" duration-ms="14556" started-at="2020-09-24T13:53:35Z" finished-at="2020-09-24T13:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactsPageTitleTest()[pri:1, instance:com.qa.hubspot.test.ContactsPageTest@4f51b3e0]" name="contactsPageTitleTest" duration-ms="149" started-at="2020-09-24T13:54:00Z" finished-at="2020-09-24T13:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsPageTitleTest -->
+        <test-method status="PASS" signature="verifyCreateNewContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.test.ContactsPageTest@4f51b3e0]" name="verifyCreateNewContacts" duration-ms="32066" started-at="2020-09-24T13:54:19Z" data-provider="getTestData" finished-at="2020-09-24T13:54:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[practice@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ashish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yadav]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Engineer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6.666666666E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewContacts -->
+        <test-method status="PASS" signature="verifyCreateNewContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.test.ContactsPageTest@4f51b3e0]" name="verifyCreateNewContacts" duration-ms="28949" started-at="2020-09-24T13:54:51Z" data-provider="getTestData" finished-at="2020-09-24T13:55:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sagar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7.777777777E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewContacts -->
+        <test-method status="PASS" signature="verifyCreateNewContacts(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hubspot.test.ContactsPageTest@4f51b3e0]" name="verifyCreateNewContacts" duration-ms="25035" started-at="2020-09-24T13:55:20Z" data-provider="getTestData" finished-at="2020-09-24T13:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smart@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PO]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4.444444444E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewContacts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.ContactsPageTest@4f51b3e0]" name="tearDown" is-config="true" duration-ms="4231" started-at="2020-09-24T13:55:45Z" finished-at="2020-09-24T13:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.HomePageTest@48a242ce]" name="tearDown" is-config="true" duration-ms="1153" started-at="2020-09-24T13:55:50Z" finished-at="2020-09-24T13:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@1e4a7dd4]" name="tearDown" is-config="true" duration-ms="1093" started-at="2020-09-24T13:55:51Z" finished-at="2020-09-24T13:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.test.ContactsPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
